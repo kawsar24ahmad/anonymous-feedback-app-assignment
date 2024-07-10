@@ -2,7 +2,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 use App\feedback\FeedbackReading;
-use App\helpers\Sanitize;
+
 session_start();
 $errors = [];
 if (!isset($_SESSION['user_id'])) {
